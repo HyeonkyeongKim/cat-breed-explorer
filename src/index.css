@@ -1,0 +1,30 @@
+body {
+  background-color: #f4f6f9;
+}
+
+
+.cat-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.cat-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.cat-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+
+.main-btn {
+  background-color: #6f42c1;
+  border: none;
+}
+
+.main-btn:hover {
+  background-color: #59359c;
+}
